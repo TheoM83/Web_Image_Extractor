@@ -9,9 +9,9 @@ A tool that permits to extract every image of a webpage.
 ### Install the requirements
 ```pip install -r requirements.txt```
 
-### Usage : 
+## Usage : 
 
-## Help
+### Options
 ```
 usage: extractor.py [-h] [-d DIRECTORY] [-i INCLUDE [INCLUDE ...]] [-e EXCLUDE [EXCLUDE ...]] [-f FORMAT [FORMAT ...]] [-r] url
 
@@ -31,6 +31,6 @@ options:
   -r, --replace         Replace existing files with the same name
   ```
 
-## Example
+### Example
 ```python script.py http://www.example.com -d images -i image1 image2 -e private```
 
